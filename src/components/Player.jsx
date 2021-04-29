@@ -8,7 +8,7 @@ const Player = ({currentSong}) => {
 
   const buttonPlayer = "filter invert focus:outline-none"
   return (
-    <section className="fixed bottom-0 left-0 w-full h-24 md:h-1/6 flex flex-row md:justify-between justify-around py-6 backdrop-filter backdrop-blur-lg bg-gray-800">
+    <section className="fixed bottom-0 left-0 w-full h-24 flex flex-row md:justify-between justify-around py-6 backdrop-filter backdrop-blur-lg bg-gray-800">
       {audio}
       <div className="flex flex-row justify-around w-1/2 md:w-1/3">
         <span className="text-gray-50"><i className="fas fa-music fa-lg" /></span>

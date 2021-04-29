@@ -26,22 +26,21 @@ const Nav = () => {
                     </span>
                 </div>
             </div>
-            <div className="hidden md:flex-col justify-between md:flex">
-                <span className="border border-black rounded-full px-2 text-center w-full py-2 text-black bg-gradient-to-r from-blue-500 to-green-500">Made For You</span>
-            <ul>
-                <h3 className="uppercase text-blueGray-500 font-extralight mb-4">Your Library</h3>
-                <li className="mb-3 text-sm font-thin">Recently Played</li>
-                <li className={listElement}>Podcast</li>
-                <li className={listElement}>Stations</li>
-            </ul>
+            <div className="hidden md:flex-col md:flex">
+                    <span className="border border-transparent mt-4 rounded-full px-2 text-center w-full py-2 text-black bg-gradient-to-r from-blue-500 to-green-500">Made For You</span>
+                <ul>
+                    <h3 className="uppercase text-blueGray-500 font-extralight mb-4 mt-6">Your Library</h3>
+                    <li className="mb-3 text-sm font-thin">Recently Played</li>
+                    <li className={listElement}>Podcast</li>
+                    <li className={listElement}>Stations</li>
+                </ul>
 
-            <ul>
-                <h3 className="uppercase text-blueGray-500 font-light mb-4">Playlist</h3>
-                <li className={listElement}>Recently Played</li>
-                <li className={listElement}>Trending</li>
-                <li className={listElement}>90's popular</li>
-                <li className={listElement}>Trending</li>
-            </ul>
+                <ul>
+                    <h3 className="uppercase text-blueGray-500 font-light mb-4 mt-6">Playlist</h3>
+                    <li className={listElement}>Recently Played</li>
+                    <li className={listElement}>Trending</li>
+                    <li className={listElement}>90's popular</li>
+                </ul>
             </div>
         </nav>
     )

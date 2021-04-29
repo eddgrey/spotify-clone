@@ -13,7 +13,7 @@ const Song = ({ song, favouriteSongs, setFavouriteSongs, setCurrentSong}) => {
         <div className="flex flex-row justify-between px-4 py-4 w-full text-gray-50 hover:bg-blueGray-900 bg-blueGray-800">
             <div className="w-1/4 md:w-1/6 text-white text-center">
                 <button onClick={() => setCurrentSong(song)}>
-                    <i className="far fa-play-circle fa-lg"/>
+                    {true ? <i className="far fa-play-circle md:fa-lg"/> : <i className="far fa-pause-circle fa-2x"/>}
                 </button>
                 <button onClick={handleFavouriteSongs} className="ml-6 focus:outline-none">
                     <span><i className="fas fa-heart md:fa-lg"></i></span>
